@@ -1,0 +1,282 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* font-family: popins; */
+}
+
+.container{
+  width: 94.8%;
+  height: 951px;
+  /* background-color: #244B39; */
+  background-image: url("../images/Group\ 3.png");
+  /* background-image: url(../images/Group\ 5.png); */
+  margin: auto;
+  position: relative;
+  z-index: -1;
+  padding-top: 50px;      
+}
+
+.img{
+  position: absolute;
+  z-index: 10;
+  margin-left: 696px;
+  margin-top: 130px;
+}
+
+.header-main{
+  width: 1240px;
+  height: 50px;
+  margin: auto;
+  /* background-color: aqua; */
+  display: flex;
+  text-align: center;
+}
+
+.b{
+  margin-top: 9px;
+  /* flex-direction: column; */
+  /* font-family: popins; */
+  font-size: 20px;
+  line-height: 30px;
+  color: #ffff;
+}
+
+
+.header-text{
+  display: flex;
+  margin-left: inherit;
+}
+
+.header-text-center{
+  color: #ffff;
+  margin-top: 15px;
+  margin-right: 80px;
+  text-align: center;
+  font-size: 15px;
+}
+
+/* .header-text-center1{
+  margin-right: 80px;
+} */
+
+.header-text3-rigth{
+  color: #ffff;
+  font-size: 15px;
+  margin-top: 15px;
+  margin-right: 25px;
+  font-weight: 500px;
+}
+
+.header-text2{
+  margin-left: inherit;
+  display: flex;
+}
+
+.header-button{
+  color: #ffff;
+  font-size: 15px;
+  padding: 13px 44px;
+  border-radius: 100px;
+  background-color: #FE624C;
+  border: none;
+  transition-duration: 0.4;
+  cursor: pointer;
+}
+
+.header-button :hover{
+  background-color: #ffff;
+
+}
+
+.container-text{
+  width: 603px;
+  height: 571px;
+  margin-left: 100px;
+  margin-top: 86px;
+}
+
+.main-btn1{
+  padding: 12px 31px;
+  border-radius: 15px;
+  /* background-color: #ffff; */
+  opacity: 25%;
+  color: white;
+  border: none;
+}
+
+h1{
+  font-size: 55px;
+  line-height: 82.5px;
+  color: #ffff;
+  margin-top: 7px;
+  margin-bottom: 30px;
+}
+
+.container-text-little{
+  width: 519px;
+  height: 76px;
+  font-size: 25px;
+  line-height: 37.5px;
+  color: #ffff;
+  opacity: 50%;
+  margin-bottom: 68px;
+}
+
+.main-btn2{
+  padding: 27px 48px;
+  color: #ffff;
+  font-size: 25px;
+  line-height: 37.5px;
+  background-color: #FE624C;
+  border-radius: 27px;
+  border: none;
+}
+
+.hero{
+  height: 456px;
+  width: 94.8%;
+  margin: auto;
+  margin-top: 85px;
+  /* background-color: dodgerblue; */
+  /* margin-left: 100px; */
+  display: flex;
+}
+
+.hero-one{
+  margin-left: 100px;
+}
+
+h3{
+  color: #0F1F1C;
+  font-size: 30px;
+  line-height: 45px;
+  width: 600px;
+}
+
+h2{
+  color: #0F1F1C;
+  font-size: 55px;
+  width: 600px;
+  line-height: 82.5px;
+
+}
+
+.container-text-little2{
+  width: 400px;
+  height: 76px;
+  color: #000;
+  opacity: none;
+  /* background-color: #0F1F1C; */
+  margin-top: 15px;
+  margin-bottom: 60px;
+}
+
+.hero-btn{
+  padding: 25px 45px;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.hero-two{
+  display: flex;
+  width: 835px;
+  height: 456px;
+  margin-left: -94.8px;
+  /* background-color: aqua; */
+}
+
+.img1{
+  margin-right: 30px;
+  /* flex-direction: column; */
+  margin-top: 27px;
+  /* position: relative; */
+}
+
+.strelka{
+  z-index: 9;
+  position: absolute;
+  margin-top: -95px;
+  margin-left: 255px;
+}
+
+.img2{
+  margin-right: 30px;
+}
+
+.img3{
+  margin-top: 27px;
+}
+
+.box{
+  display: flex;
+  width: 94.8%;
+  /* background-color: aqua; */
+  margin: auto;
+  margin-top: 200px;
+}
+
+.box-img{
+  margin-left: 100px;
+}
+
+.box-one{
+  margin-left: 68px;
+  width: 565px;
+  /* background-color: #FE624C; */
+  margin-left: 68px;
+}
+
+
+.box-text-one{
+  font-weight: 500px;
+  font-size: 45px;
+  line-height: 67.5px;
+}
+
+.box-two{
+  display: flex;
+  margin-top: 35px;
+  margin-bottom: 60px;
+}
+
+.box-two-room{
+  margin-left: 33px;
+}
+
+.box-two-text1{
+  font-size: 33px;
+  font-weight: 500px;
+  line-height: 49.5px;
+}
+
+.box-two-text2{
+  font-size: 25px;
+  font-weight: 400px;
+  line-height: 37.5px;
+  color: #0F1F1C;
+  opacity: 50%;
+}
+
+.box-one-text3{
+  font-size: 22px;
+  font-weight: 500px;
+  line-height: 33px;
+  color: #0F1F1C;
+  opacity: 50%;
+  margin-bottom: 30px;
+}
+
+.fa-star{
+  color: #FFD336;
+  font-size: 50px;
+  margin-right: 8px;
+}
+
+.star-box{
+  color: #C4C4C4;
+}
+/* 
+.bloc{
+  
+} */
